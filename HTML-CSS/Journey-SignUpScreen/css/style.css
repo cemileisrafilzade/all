@@ -1,0 +1,209 @@
+.container{
+    margin: 0 auto;
+}
+body{
+    font-family: sans-serif;
+    background-image:url('../img/journey.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+    
+    
+}
+header{
+    border: 1px solid transparent ;
+    padding: 19px;
+    display:flex;
+    background-color: black;
+    opacity: 0.5;
+    margin-bottom: 40px;
+}
+.journey{
+    font-size: 20px;
+color: white;
+}
+.journey:hover{
+    color: #3cb878;
+}
+.header-symbols{
+    padding-left: 700px;
+    
+    
+}
+i{
+    cursor:pointer;
+    padding-right: 20px;
+}
+header i:hover{ 
+    color: #3cb878;
+}
+.header-txt{
+    
+    border-left: 1px solid #33302e ;
+    font-size: 14px;
+padding-left:50px;
+}
+span{
+    cursor:pointer;
+
+    color: #3cb878;
+}
+span:hover{
+    text-decoration: underline;
+}
+form{
+    background-color: white;
+margin: 0 auto;
+border: 1px transparent;
+width: 444px;
+border-radius: 7px;
+height: 540px;
+display:flex;
+flex-direction:column;
+justify-content: center;
+margin-top: 10px; 
+}
+.main-txt{
+    display: inline-flex;
+}
+
+.sign-up-txt{
+    color: black;
+    position: relative;
+    font-size: 20px;
+    padding-left: 60px;
+}
+.sign-up-txt::before{
+    content: '';
+    margin-left: -60px;
+    padding: 9px;
+    background-color: #3cb878;
+    display: inline-block;
+    position: absolute;
+}
+
+.login-txt{
+    color: #3cb878;
+    font-size: 14px;
+    padding-left: 205px;
+}
+button{
+    border-radius: 3px;
+margin-top: 15px;
+text-align: center;
+width:155px;
+height: 35px;
+font-size: 16px;
+color: white;
+}
+.buttons{
+    margin-right: 55px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.facebook{
+    margin-left: 60px;
+    border-color:#305db8 ;
+    background-color: #305db8;
+}
+.facebook:hover{
+    background-color: #264b96;
+}
+
+.fa-facebook-f{
+    border-right: 1px solid #2b54a5;
+}
+.fa-google-plus-g{
+
+
+border-right:1px solid #c8422d;
+}
+.google{ 
+    border-color:#df4a32 ;
+    
+    background-color: #df4a32;
+}
+.google:hover{
+    background-color: #c3412c;
+}
+selector{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.or{
+    margin-bottom: 3px;
+    color: #505050;
+    margin-left: 215px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+.or::before{
+    color: #505050;
+    content: '';
+    border-bottom: 0.5px solid black;
+    width: 135px;
+display: inline-block;
+position: absolute;
+right: 23px;
+    top: 18px;
+}
+.or::after{
+    content: '';
+    border-bottom: 0.5px solid black;
+    width:135px;
+display: inline-block;  
+position: absolute;
+left: 23px;
+    top: 18px;
+}
+input{
+    
+    border-radius: 3px;
+    width: 322px;
+    height: 35px;
+    margin-bottom: 9px;
+    margin-left: 62px;
+}
+::placeholder{
+    color: #bebebe;
+}
+input:focus{
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0, 0.21);
+  outline: none;
+  color: black;
+}
+::placeholder{
+    padding-left: 17px;
+    font-size: 14px;
+}
+.checkbox-div{
+    display: flex;
+}
+.checkbox{
+    color:#3cb878 ;
+    width: 18px;
+    height: 18px;
+}
+.create-account{
+    width: 322px;
+    height:35px;
+    color: white;
+    background-color: #3cb878;
+    font-size: 16px;
+    border-color: #3cb878;
+    border-radius: 3px;
+    margin-bottom: 4px;
+    margin-left: 62px;
+}
+.create-account:hover{
+    outline:none;
+    background-color: #329a65;
+}
+.last-p{
+    color: black;
+    margin-top:5px;
+    font-size: 14px;
+}
