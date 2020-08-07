@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+}
+
+.gutters {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+[class^="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+.text-center {
+    text-align: center;
+}
+
+.def-link{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+.header {
+    border-bottom: 1px solid black;
+}
+
+.header--additional-line {
+    background-color: #fef7f6;
+}
+
+.header--additional-line a {
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 0 10px;
+
+}
+
+.header--additional-line a:first-child {
+    padding-left: 0;
+}
+.header--additional-line a:last-child {
+    padding-right: 0;
+}
+
+.header--additional-line a:not(:last-child) {
+    position: relative;
+}
+
+.header--additional-line a:not(:last-child):after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 90%;
+    background-color: black;
+    top: 5%;
+    right: 0;
+}
+
+.header--main-line {
+    background-color: white;
+    padding: 30px 0;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+.header-icon {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.header-icon img{
+    width: 100%;
+    height: 100%;
+}
+
+.header-icon span {
+    border-radius: 100%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 6px;
+    background-color: red;
+    color: white;
+}
+
+.main-nav a {
+    display: inline-block;
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
+/* First Section */
+.first-section {
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../img/first-s-bg.jfif');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.under-h-text {   
+    color: grey;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.big-h {
+    font-size: 50px;
+    margin: 10px 0 30px;
+}
+
+.section-padding {
+    padding: 70px 0 50px;
+}
+.def-h {
+    font-size: 32px;
+    margin: 0 0 35px; 
+}
+
+
+.product-cart {
+    text-align: center;
+    
+}
+
+
+.product-cart:hover .product-cart--hover-icons {
+    opacity: 1;
+}
+
+.product-cart--img {
+    position: relative;
+    height: 400px;
+    background-color: lightgrey;
+}
+
+.product-cart--img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.product-cart--hover-icons {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 20px;
+    opacity: 0;
+    transition: all .5s;
+}
+
+
+.circle-icon-btn {
+    height: 26px;
+    width: 26px;
+    padding: 5px; 
+    background-color: white;
+    border: none;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0 5px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.circle-icon-btn:hover {
+background-color: red;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+.rows {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    background-color: lightgray;
+    min-height: 100vh;
+    width: 400px;
+    padding: 15px;
+}
+
+.add-btn {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+}
+
+.card input {
+    display: block;
+    width: 100%;
+}
+
+.card textarea {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-row {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.btn {
+    color: white;
+}
+
+.btn_danger {
+    background-color: red;
+}
+
+.btn_warn {
+    background-color: orange;
+}
+
+.btn_success {
+    background-color: darkgreen;
+}

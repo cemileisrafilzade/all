@@ -1,0 +1,31 @@
+*
+    box-sizing: border-box
+
+body
+    margin: 0
+    padding: 0
+    font-family: 'Roboto'
+
+.App
+    max-width: 800px
+    margin: 20px auto
+    border-radius: 10px
+    background-color: white
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35)
+    padding: 50px
+
+.article-link 
+    padding: 20px
+    border: 1px solid lightgrey
+    border-radius: 10px
+    transition: all .3s ease
+    cursor: pointer
+
+    &:hover
+        background-color: lightgrey
+    
+    &:not(:last-child)
+        margin-bottom: 10px
+    h4
+        font-size: 20px
+        text-transform: uppercase

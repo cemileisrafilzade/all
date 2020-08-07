@@ -1,0 +1,32 @@
+.App
+    display: flex
+    padding: 40px
+
+body 
+    margin: 0
+
+*
+    box-sizing: border-box
+
+.products-list
+    width: calc(100% - 300px)
+    display: flex
+    flex-wrap: wrap
+    padding-right: 40px
+
+.single-product
+    width: calc((100% - 40px) / 3)
+    border: 1px solid black
+    margin-bottom: 20px
+    padding: 20px
+    text-align: center
+    &:not(:nth-child(3n))
+        margin-right: 20px
+
+.load-more
+    width: 100%
+
+.cart
+    width: 300px
+    padding: 40px
+    border-left: 1px solid black

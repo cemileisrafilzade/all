@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .filter-title.active {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul id="filter-titles">
+        <li>
+            <div data-filterby class="filter-title active">All</div>
+        </li>
+        <li>
+            <div data-filterby="type1" class="filter-title">Type 1</div>
+        </li>
+        <li>
+            <div data-filterby="type2" class="filter-title">Type 2</div>
+        </li>
+        <li>
+            <div data-filterby="type3" class="filter-title">Type 3</div>
+        </li>
+    </ul>
+
+    <div class="projects-list">
+        <div class="project-item type1">Type 1</div>
+        <div class="project-item type2">Type 2</div>
+        <div class="project-item type3">Type 3</div>
+        <div class="project-item type2">Type 2</div>
+        <div class="project-item type3">Type 3</div>
+        <div class="project-item type1 type2">Type 1, Type 2</div>
+        <div class="project-item type2">Type 2</div>
+        <div class="project-item type2">Type 2</div>
+        <div class="project-item type3">Type 3</div>
+        <div class="project-item type1 type3">Type 1, Type 3</div>
+        <div class="project-item type1">Type 1</div>
+        <div class="project-item type2">Type 2</div>
+        <div class="project-item type3">Type 3</div>
+        <div class="project-item type1">Type 1</div>
+        <div class="project-item type2">Type 2</div>
+    </div>
+
+    <script src="dest.js"></script>
+</body>
+
+</html>

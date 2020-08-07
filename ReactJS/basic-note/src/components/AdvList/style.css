@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.form input,
+.form textarea,
+button {
+    display: block;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.list {
+    padding-top: 30px;
+}
+
+.list-item {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            /* display: flex;
+            flex-wrap: wrap; */
+            margin: 0;
+        }
+
+        .card {
+            width: 30%;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 2px solid grey;
+        }
+
+        .circle {
+            transition: all .4s ease;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border-radius: 100%;
+            margin: 100px auto;
+        }
+
+        .btn {
+            width: 50%;
+            text-align: center;
+        }
+
+        .grid div {
+            background-image: url('cell.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .char-img {
+            width: 20%;
+            height: 0;
+            padding-bottom: 20%;
+            position: absolute;
+            background-image: url('creature.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 70%;
+            transition: all .4s ease;
+
+        }
+
+        .char-img button {
+            /* color: white; */
+        }
+
+        #wrapper {
+            position: relative;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <!-- <div class="card">
+        <button class="btn">-</button>
+        <button class="btn">+</button>
+        <div class="circle"></div>
+    </div> -->
+
+    <div id="wrapper"></div>
+
+    <script src="bubleHit.js"></script>
+</body>
+</html>

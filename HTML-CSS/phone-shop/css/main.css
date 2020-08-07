@@ -1,0 +1,173 @@
+:root {
+    --primCol: #008ed6;
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+} 
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-3 {
+    margin-top: 40px;
+}
+
+.mr-1 {
+    margin-right: 10px;
+}
+
+.mr-2 {
+    margin-right: 20px;
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+}
+
+.first-section {
+    background-size: cover;
+    background-position: center;
+    /* min-height: 100vh; */
+    padding: 150px 0 110px;
+  /*  display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    justify-content: center; */
+    color: white;
+    overflow: hidden;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 35px;
+    left: 0;
+}
+
+.logo {
+    width: 80px;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.navigation a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    position: relative;
+    padding-bottom: 4px;
+    display: inline-block;
+}
+
+.navigation a::after {
+    content: '';
+    border-bottom: 2px solid var(--primCol);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transform: translateY(5px);
+    transition: all .3s ease-out;
+}
+
+.navigation a:hover:after {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.small-title {
+    text-transform: uppercase;
+    margin: 0;
+    color: var(--primCol);
+    font-size: 14px;
+    
+}
+
+.big-h {
+    font-size: 46px;
+    margin-bottom: 0;
+
+}
+
+.def-text {
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid var(--primCol);
+    background-color: var(--primCol);
+    padding: 15px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    min-width: 160px;
+    max-width: 260px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all .3s ease-out;
+}
+
+.link_secondary {
+    border-color: white;
+    background-color: transparent;
+}
+
+.link:hover {
+    background-color: transparent;
+    border-color: var(--primCol);
+    color: var(--primCol);
+}
+
+.phone {
+    position: absolute;
+    bottom: -220px;
+    right: 0;
+    width: 40%;
+}
+
+
+
+
