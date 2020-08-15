@@ -1,0 +1,71 @@
+.header {
+  width: 45%;
+  text-align: center;
+  padding-bottom: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.logo {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.header-paragraph {
+  color: white;
+  text-align: center;
+}
+.about-middle-part {
+  justify-content: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  background-color: white;
+  padding-top: 30px;
+  color: #b2b2b2;
+}
+.about-imgs {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+.learnmore-txt {
+  color: #a40116;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  padding: 5px;
+}
+.learnmore-txt:hover {
+  text-decoration: underline;
+}
+.about-h1 {
+  color: #0754ae;
+}
+.middle-imgs {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  /* margin-bottom: 5px; */
+}
+.middle-bigger-img {
+  width: 370px;
+  height: 410px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.about-footer-section {
+  background-color: #f6f6f6;
+  text-align: center;
+  justify-content: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+.history-header {
+  text-align: center;
+  align-items: center;
+  font-size: 45px;
+}

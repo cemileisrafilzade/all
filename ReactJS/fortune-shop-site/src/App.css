@@ -1,0 +1,124 @@
+.App {
+  font-size: 16px;
+}
+
+/* #0754ae  blue*/
+/* #a40116 red */
+
+.link-texts {
+  padding: 15px;
+  cursor: pointer;
+  color: #0754ae;
+  font-size: 16px;
+}
+.right-border {
+  border-right: 1px solid #b2b2b2;
+  padding: 5px;
+  margin: 5px;
+}
+.search-input {
+  border: 1px solid #b2b2b2;
+  border-radius: 8px;
+  width: 200px;
+  padding: 4px;
+  padding-left: 15px;
+  margin: 8px;
+  margin-left: 200px;
+}
+.header-txt {
+  padding: 10px;
+  cursor: pointer;
+  color: #b2b2b2;
+}
+.header-div {
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+.icons {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.fortune {
+  /* background-image:  url("../src/images/background.jpg"); */
+  background-color: #a40116;
+}
+.link-lists {
+  text-decoration: none;
+  padding-right: 10px;
+  color: white;
+}
+.link-lists:hover {
+  color: #00bcd4;
+}
+.link-lists:focus {
+  color: #00bcd4;
+}
+
+.logo-txt {
+  color: white;
+  margin-left: 15%;
+}
+.footerh2 {
+  color: #a40116;
+}
+
+.footer-sosial-media {
+  padding: 5px;
+  border: 1px solid #a40116;
+  border-radius: 15px;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+}
+.footer-sosial-media img {
+  padding: 5px;
+}
+.footer-adress {
+  font-size: 40px;
+}
+.uls {
+  list-style: none;
+  cursor: pointer;
+}
+.uls li:hover {
+  color: #a40116;
+}
+footer {
+  align-items: center;
+  justify-content: center;
+}
+.footer-hr {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.copyright-txts {
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+}
+.copyright {
+  margin-left: 50px;
+}
+.copyright-txts text {
+  margin-left: 100px;
+  cursor: pointer;
+}
+.copyright-txts text:hover {
+  color: #a40116;
+}
+.sosial-media-div {
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 700px; */
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.4);
+}
+.sosial-media-div img {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
