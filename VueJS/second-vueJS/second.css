@@ -1,0 +1,13 @@
+#app{
+ 
+}
+.red{
+    width: 200px;
+    height:200px;
+background-color: brown;
+border-radius: 5%;
+margin: 20px;
+}
+.gold{
+    background-color: gold;
+}

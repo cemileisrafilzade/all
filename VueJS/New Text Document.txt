@@ -1,0 +1,106 @@
+<template>
+ 
+  <div class="App">
+    <div class="mainDiv">
+  <div class="logoDiv">
+     <img src="./assets/logo1.jpg"  width="100px" height="100px" alt="">
+
+  <p class="logoTxt">NSPSOLUTIONS</p>
+  
+  </div>
+  <div class="loginDiv">
+  <h2>  Welcome to the New World!</h2>
+    <input placeholder="Username">
+    <input placeholder="Password">
+    <button>login</button>
+
+<br>
+    <!-- <img src="./assets/logo1.jpg"  width="100px" height="100px" alt="">
+    <img src=""  width="100px" height="100px" alt=""> -->
+
+  </div></div>
+  </div>
+</template>
+
+<script>
+
+export default {
+  name: 'LoginScreen',
+  
+ 
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
+  /* text-align: center; */
+  color: #2c3e50;
+  /* margin: 0 auto; */
+  background-image: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.mainDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 150px;
+
+  }
+/* .logoDiv{
+  
+  background-color: rgb(7, 180, 233);
+  opacity: 0.5;
+  color: white;
+  width: 550px;
+  height: 350px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+text-align: center;
+
+  }
+  .logoTxt{
+  font-family: monospace;
+  font-weight: bold;
+    font-size: 20px;
+  }
+  .loginDiv{
+    display: flex;
+    flex-direction: column;
+  width: 500px;
+  height: 300px;
+  padding: 25px;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  input{
+    border: none;
+    border-bottom: 1px solid rgb(211, 210, 210) ;
+    font-family: monospace;
+    margin: 20px;
+    padding: 3px;
+    
+  }
+  button{
+    background-color: dodgerblue;
+    padding: 5px;
+    color: white;
+    border: none;
+    width: 15%;
+    border-radius: 3px;
+    margin: 20px;
+    height: 8%;
+    font-family: monospace;
+    }
+    h2{
+      color: black;
+      margin: 20px;
+      margin-top: 60px;
+    } */
+</style>

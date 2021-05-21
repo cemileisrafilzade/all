@@ -1,0 +1,153 @@
+*{
+font-family: system-ui;;
+text-align: center;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+img{
+    padding: 15px;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-btn{
+    height: 40px;
+    background-color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.08); 
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.08);
+    border: 1px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+}
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.middle-section p{
+   margin:0 auto;
+   padding: 10px;
+}
+.middle-txt p{
+    width: 35%;
+}
+.middle-btn{
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    margin: 10px;
+    width: 16%;
+    padding: 12px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.28);
+-moz-box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.28);
+box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.28);
+}
+.middle-btn:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+.numbers{
+    margin: 20px 150px;
+    float: left;
+}
+.numbers img{
+    padding: 10px;
+   margin-left: -80px;
+  margin-bottom: -25px;
+}
+.numbers p{
+    font-size: 15px;
+    float: left;
+    opacity: 70%;
+}
+.numbers h1{
+    font-size: 50px;
+    margin: 2px;
+}
+.inline-img{
+width: 50%;
+
+}
+.grow-together{
+    display: flex;
+
+    background-image: url("./images/bg-section-top-desktop-1.svg");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+padding: 10%;
+}
+.float-right img{
+    float: left;
+
+}
+footer{
+    margin-top:20px ; 
+       background-color: hsl(192, 100%, 9%);
+padding: 20px;
+}
+.footer-div{
+    padding: 20px 50px;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.informations{
+    width: 35%;
+text-align: left;}
+.informations p{
+    text-align: left;
+
+}
+ ul li  {
+text-align: left;     
+ display: flex;
+float: left;
+
+    text-decoration: none;
+}
+ion-icon{
+    color: white;
+}
+
+.form{
+    width: 35%;
+}
+
+.form p,h3{
+    text-align: left;
+}
+.logos{
+cursor: pointer;
+}
+.form input{
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    border-radius: 5px;
+}
+.form button{
+    background-color: hsl(322, 100%, 66%);
+color: white;
+border: none;
+padding: 6px 8px;
+cursor: pointer;
+border-radius: 5px;
+margin: 8px;
+}
+.form button:hover{
+    background-color: hsl(321, 100%, 78%);
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>first-vueJS</title>
+</head>
+<body>
+    <div id="app">
+    <h1>hello world</h1>
+    <h2>{{header}}</h2>
+<p>{{paragrahp}}</p>
+<a v-bind:href="link">google</a>
+<!--v-bind:smthng == :smthng -->
+<p v-html="vhtml"></p>
+<hr>
+
+<button v-on:click="increase()">increase count</button>
+<p>{{count}}</p>
+<hr>
+<p>get input and add</p>
+<input type="text" @keypress="add_and_increase($event)"/>
+<!--v-on:keypress == @keypress-->
+<p>{{count2}}</p>
+
+
+<hr>
+<h4>2 way data binding(v-model)</h4>
+<input type="text" v-model="inputtxt" />
+<p>{{inputtxt}}</p>
+
+
+<hr>
+
+<h4>if age less than 16 not allowed </h4>
+<input type="text" v-model="ageinput" v-on:keypress.enter="isAllowed()"  />
+<p>{{allowed}}</p>
+
+
+
+
+
+</div>
+
+
+
+    <script>
+    new Vue({
+ el:'#app',
+data:{
+paragrahp:"first-vueJs",
+header:"header-data",
+link:"https://google.az",
+vhtml:"<h3>inner html example</h3>",
+count:0,
+count2:0,
+inputtxt:"something",
+ageinput:0,
+allowed:"enter your age",
+
+},
+methods:{
+    increase(){
+this.count++
+    },
+    add_and_increase(e){
+     if(e.keyCode == 13){//enterKeyCode is 13///// or keypress.enter(look event modifiers)
+        this.count2 += parseInt(e.target.value)
+    }},
+
+
+    ////// if age less than 16
+    isAllowed(){
+        if(this.ageinput <= 16 ){
+this.allowed = "not allowed to enter page!!!"
+alert(this.allowed);
+}
+else{
+    this.allowed = "welcome to the page))) "
+    alert(this.allowed);
+}
+    },
+
+///////////////////////////////
+// watch:{
+// inputtxt(newValue,oldValue){
+// console.log(newValue)
+// console.log(oldValue)   
+// }
+// }
+/////didn't work
+
+
+
+}
+
+
+
+    });</script>
+</body>
+</html>

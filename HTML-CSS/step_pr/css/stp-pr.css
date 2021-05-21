@@ -1,0 +1,383 @@
+body {
+    
+    min-width: 1200px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.our-services-div{
+    
+        width: 1200px;
+ 
+  margin: 0 auto;
+}
+button{
+    cursor: pointer;
+    border-style: none;
+    border-radius: 3%;
+}
+
+.section1 {
+background-image:url('../Sections-background/section-1(header).jpg');
+background-attachment: fixed;
+width: 100%;
+}
+/**************HEADER PART*****************/
+.header-div{
+    margin: 0 auto ;
+    width: 100%;
+   align-items: center  ;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.header{
+    margin: 0 auto ;
+justify-content: space-between;
+width: 1200px;
+    margin-bottom:150px;
+/* width: 1920px; */
+   height: 100px;
+    display: flex;
+/* border: 1px solid black; */
+}
+.header-list{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+}
+.header-list-items{
+    color: white;
+    cursor:pointer;
+    margin-left: 25px;
+}
+
+.header-list-items:hover{
+    /* text-decoration: underline; */
+
+border-bottom: 1px solid #18cfab;
+padding-bottom: 59px;
+    color:#18cfab ;
+   border-bottom-color:#18cfab ;
+    /* border-bottom-color: 1 px solid#18cfab; */
+}
+.main-logo{
+display: flex;
+}
+.logo-div{
+margin-top: 20px;
+margin-left: 100px;
+margin-right: -200px;
+}
+.logo-div-H{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 1px;
+}
+.logo-span{
+    font-weight: lighter;
+    color: white;
+}
+/*******LOGO HEXAGON*******************/
+.d1{
+    color: white;
+        width: 0;
+    border-bottom: 10px solid #18cfab;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+    }
+    .d2{
+    width: 48px;
+    height: 40px;
+    background-color: #18cfab;
+    }
+    .d3{
+    width: 0;
+    border-top: 10px solid #18cfab;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent; } 
+.logo{
+    font-weight: bolder;
+    cursor: pointer;
+    padding-left: 5px;
+    font-weight: bold;
+font-size: 25px;
+    display: flex;
+    color: #18cfab;
+    margin-top: 46px;
+    margin-right: 100px;
+    margin-left: 200px;
+    margin-top: 37px;
+}
+/*******AFTER HEADER*************/
+
+main{
+    padding-bottom: 200px;
+}
+.p1{
+    color: #ffffff;
+    font-size: 30px;
+margin-bottom: 40px;
+}
+.p1-span{
+    color: #18cfab;
+}
+.h1-1{
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 36px;
+    font-size: 70px;
+}
+.p2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 120px;
+    /* opacity: 20%; */
+}
+.explore-btn{
+    border-top: 4px solid white;
+    margin-right: 10px;
+    width: 166px;
+    height: 60px;
+    background-color: #18cfab;
+    color: white;
+    /* border-top:3px white ; */
+}
+.purchase-btn{
+    border-top: 4px solid white;
+
+    width: 166px;
+    height: 60px;
+    background-color: #00cbf6;
+    color: white;
+}
+
+
+
+
+.section2{
+    display: flex;
+
+   
+}
+
+.s2-div1{
+   
+border-top:4px solid #18cfab ;
+ 
+    padding-top:  140px;
+background-color: #1c2a33;
+    border: 1 px solid black;
+    color:#18cfab;
+    font-size: 20px;
+    width:25%;
+    height: 150px;
+    cursor: pointer; 
+}
+
+.s2-div2{ 
+    border-top: 4px solid white;
+    padding-top:  140px;
+    background-color: #18cfab;
+        border: 1 px solid black;
+        color:white;
+        font-size: 20px;
+        width: 25%;
+        height: 150px;
+        cursor: pointer;
+    }
+
+.fa-hand-pointer,.fa-gem,.fa-lightbulb,.fa-laptop-code{
+    font-size: 50px;
+    justify-content: baseline;
+    padding-bottom: 50px;
+    margin-top: -27px;
+
+}
+
+h3{ margin-top: 82px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: rgba(78, 78, 78, 255);
+}
+
+.our-services-hr1{
+    margin-top: 30px;
+    width: 80px;
+    justify-content: center;
+    border:0.5px solid #18cfab;
+}
+
+.our-services-hr2{
+    margin-top: -6px;
+    width: 80px;
+   transform: translateX(20px);
+  
+    justify-content: center;
+    border:0.5px solid #18cfab;
+    margin-bottom: 70px;
+}
+
+/**********AFTER OUR-SERVICES****************/
+.centered-content {
+    display: flex;
+    flex-direction: column;
+   
+}
+.tabs{
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+   
+}
+
+.tabs-title{
+    cursor: pointer;
+    color: rgba(78, 78, 78, 255);
+    text-align: center;
+    padding-top: 40px;
+font-size: 16px;
+width: 200px;
+height: 50px;
+background-color: #f8fcfe;
+border: 1px solid gainsboro;
+margin-bottom: 30px;
+}
+
+.tabs-content p{
+    
+/* width: 60%; */
+margin-right: 200px;
+/* margin-top: 30px; */
+height: 139px;
+text-align: justify;
+width: 1180px;
+
+/* float: right; */
+}
+.tabs-content img{
+    margin-right: 30px;
+    width: 180px;
+    height: 130px;
+    /* margin-top: 24px; */
+    float: left;
+    /* margin-left: 90px; */
+}
+.tabs-title.active{  
+    color: white;
+    background-color:#18cfab ;
+}
+/* 
+.t-div{
+    margin-bottom: 25px;
+    display:flex;
+    flex-direction: row; 
+    margin-left: 40px;
+    padding-left: 40px;
+    justify-content: space-around;
+/* display: none;} */
+
+/* .triangle-div{ 
+    width: 0;
+    border-top: 5px solid #18cfab;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+} */ 
+
+/**********SECTION 3**************/
+
+.section3{
+    /* margin-bottom: -50px; */
+    margin-top: 50px;
+    background-image: url('../Sections-background/section-2.jpg');
+    background-size:cover;
+background-attachment:fixed ;
+
+}
+.last-h1{
+    font-weight: bolder;
+    padding-top: 128px;
+    font-size: 39px;
+    color:#18cfab ;
+    margin-bottom: 35px;
+}
+#last-p{
+    margin-top: 35px;
+    margin-bottom: 76px;
+    color: white;
+    font-size: 16px;
+}
+.purc2-btn{
+    border-top: 4px solid white;
+
+    width: 165px;
+    height: 61px;
+    background-color: #18cfab;
+    color: white;
+   margin-bottom: 70px;
+}
+.last-h2{
+    font-size: 36px;
+    color: rgba(78, 78, 78, 255);
+margin-bottom: 67px;
+    
+}
+
+ .section4 a{
+    color: rgba(78, 78, 78, 255);
+    border: 1px solid   gainsboro;
+   padding-right: 21px;
+   padding-left: 20px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+    text-decoration: none;
+    background-color: #f8fcfe;
+    margin-bottom: 70px;
+}
+.last-photos{
+    margin: 0 auto ;
+}
+/******************???????*****/
+.last-photos td:hover{
+    border-top: #18cfab;
+    background-color: white;
+}
+table img{
+    width: 250px;
+    height: 200px;
+}
+
+
+.s4.active{   
+    border-top-color:  #18cfab ;   
+    color: #18cfab;
+}
+.section4{
+    justify-content: center;
+    display: flex;
+}
+
+
+.loadmore-btn{
+    margin-top: 68px;
+    border-style: none;
+    background-color: #18cfab;
+    color: white;
+    font-size: 14px;
+    width: 160px;
+    height: 60px;
+    margin-bottom: 100px;
+}
+
+.last-div{
+    padding-top: 70px;
+    background-color: #f8fcfe;
+}
+footer{
+    background-color: #22353f;
+    color: #aeaeae;
+    height: 60px;
+    padding-top: 45px;
+}
+.footer-link{
+text-decoration: none;
+color: #18cfab;
+}

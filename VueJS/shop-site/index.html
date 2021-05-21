@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+<p v-if="isLoading">Loading...</p>
+
+
+<h1>shopping cart</h1>
+<p v-if="!cart.length">no item in cart </p>
+<div class="cart">
+<div class="item" v-for="(item,index) in cart">
+  
+    <div class="image">
+    <a href="">
+    <img v-bind:src="item.image"   alt=""/> </a></div>
+   
+    <div class="info">
+       
+<h3>{{item.name}}</h3>
+<p class="price">${{item.price}}</p>
+
+<p class="seller"> by {{item.seller}}</p>
+<p class="status" v-if="item.isAviable">in stock</p>
+<p class="shipping" v-if="item.isEligable"> Eligible for FREE Shipping &FREE returns</p> 
+<div>
+<a  v-on:click="removeFromCart(index)">delete</a>   |
+<a  v-on:click="saveForLater(index)">save for later</a></div>
+</div>
+
+</div>
+    
+
+<p class="subtotal">Subtotal ({{cart.length}} item) <span>${{totalPrice}}</span> </p>
+<br>
+<br>
+<h1>Saved for later ({{saved.length}} item)</h1>
+
+<div class="item" v-for="(item,index) in saved">
+  
+    <div class="image">
+        <a href="">
+        <img v-bind:src="item.image"   alt=""/> </a></div>
+       
+    <div class="info">
+<h3>{{item.name}}</h3>
+<p class="seller">{{item.seller}}</p>
+<p class="status" v-f="item.isAviable">in stock</p>
+<p class="shipping" v-if="item.isEligable"> Eligible for FREE Shipping &FREE returns</p> 
+<div>
+<a v-on:click="removeFromSavedList(index)">delete</a>   |
+<a v-on:click="moveToCart(index)" >move to cart</a></div>
+</div>
+</div>
+
+</div>
+
+</div>
+<script src="./app.js"></script>
+</body>
+</html>

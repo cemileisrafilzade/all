@@ -1,0 +1,54 @@
+*{
+    font-family: monospace;
+
+}
+
+.item{
+display: flex;
+border-bottom: 1px solid grey;
+margin-bottom: 10px;
+align-items: center;
+padding: 10px;
+line-height: 0.5;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    
+}
+img{
+width: 150px;
+height: 180px;
+margin: 10px;
+border-radius: 5px;
+border: 2px solid brown;
+
+}
+.status{
+    color: rgb(101, 179, 24);
+}
+.price{
+    color: tomato;
+}
+.shipping{
+
+}
+a{
+    text-decoration: none;
+    color: rgb(62, 112, 250);
+    cursor: pointer;
+}
+h3{
+    color: rgb(62, 112, 250);
+}
+.subtotal{
+    float: right;
+    font-size: 20px;
+    font-weight: bolder;
+    color: teal;
+    border-bottom: 1px solid gainsboro;
+}
+span{
+    color: tomato;
+}
